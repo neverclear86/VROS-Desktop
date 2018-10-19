@@ -55,6 +55,7 @@
   },
   "dependencies": {
     "axios": "^0.18.0",
+    "electron-store": "^2.0.0",
     "vue": "^2.5.16",
     "vue-electron": "^1.0.6",
     "vue-router": "^3.0.1",
@@ -80,7 +81,6 @@
     "devtron": "^1.4.0",
     "electron": "^2.0.4",
     "electron-builder": "^20.19.2",
-    "electron-config": "^1.0.0",
     "electron-debug": "^1.5.0",
     "electron-devtools-installer": "^2.2.4",
     "file-loader": "^1.1.11",

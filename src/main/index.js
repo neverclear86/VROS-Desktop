@@ -28,8 +28,7 @@ function createWindow () {
   mainWindow.on('closed', () => {
     mainWindow = null
   })
-
-  require('./ipc/get-cookie')
+  require('./login')
 }
 
 app.on('ready', createWindow)

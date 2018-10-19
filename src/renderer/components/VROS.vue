@@ -8,6 +8,7 @@
 
 <script>
   import path from 'path'
+
   export default {
     name: 'VROS',
     mounted() {
@@ -20,6 +21,7 @@
         webview.openDevTools() // webview側のデベロッパーツールを表示する。うざかったら消していい。
         webview.send("ping")
       })
+
     },
     methods: {
       preload() {
