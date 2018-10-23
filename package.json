@@ -1,9 +1,9 @@
 {
   "name": "vros-desktop",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "author": "LinaTsukusu",
   "description": "Desktop app for VROS (https://vros.jp)",
-  "license": null,
+  "license": "MIT",
   "main": "./dist/electron/main.js",
   "scripts": {
     "build": "node .electron-vue/build.js && electron-builder",
