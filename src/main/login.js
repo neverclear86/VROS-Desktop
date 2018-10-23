@@ -11,8 +11,6 @@ if (loginInfo) {
       console.error(err)
     }
   })
-  console.log('Auto login!')
-
 } else {
   let login = function(e) {
     session.defaultSession.cookies.get({domain: 'vros.jp', name: '_vtuber_session'}, (err, cookies) => {
